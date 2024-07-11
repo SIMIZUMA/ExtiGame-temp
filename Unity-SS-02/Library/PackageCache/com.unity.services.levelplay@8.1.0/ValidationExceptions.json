@@ -1,0 +1,15 @@
+{
+    "ErrorExceptions": [
+        {
+            "ValidationTest": "Manifest Validation",
+            "ExceptionMessage": "In package.json, \"documentationUrl\" can't be used for Unity packages.  It is a features reserved for enterprise customers.  The Unity documentation team will ensure the package's documentation is published in the appropriate fashion",
+            "PackageVersion": "8.1.0"
+        },
+        {
+            "ValidationTest": "ChangeLog Validation",
+            "ExceptionMessage": "No changelog entry for version `8.1.0` was found in '/private/var/folders/93/v1v2tm2x671cygqtvd8dq7y00000gn/T/tmp-1139-5C7YvzzPmaFj/Library/PackageCache/com.unity.services.levelplay@f2068568d99d/CHANGELOG.md'. Please add or fix a section so you have a `## [8.1.0] - YYYY-MM-DD` or `## [8.1.0] - YYYY-MM-DD` section. Read more about this error and potential solutions at https://docs.unity3d.com/Packages/com.unity.package-validation-suite@latest/index.html?preview=1&subfolder=/manual/changelog_validation_error.html#no-changelog-entry-for-version-was-found",
+            "PackageVersion": "8.1.0"
+        }
+    ],
+    "WarningExceptions": []
+}
